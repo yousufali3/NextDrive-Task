@@ -3,7 +3,7 @@ import { ArrowRight, Star, Trophy, Zap } from 'lucide-react';
 
 const HeaderTwo = () => {
   return (
-    <div className="relative h-[90vh] w-full overflow-hidden bg-black">
+    <div className="relative h-[95vh] w-full overflow-hidden bg-black">
       {/* Modern gradient background with animation */}
       <div 
         className="absolute inset-0 bg-gradient-to-br from-violet-800 via-indigo-900 to-black"
@@ -43,8 +43,7 @@ const HeaderTwo = () => {
             {/* Enhanced value proposition */}
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
               We craft exceptional digital experiences that transform brands, drive growth, 
-              and create meaningful connections with your audience. Our innovative approach 
-              combines cutting-edge technology with strategic creativity.
+              and create meaningful connections with your audience.
             </p>
 
             {/* CTA section */}
